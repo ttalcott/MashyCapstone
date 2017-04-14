@@ -4,4 +4,4 @@
 
 #### With Mashy, we aim to provide a "one-stop" shop for food reviews. This is achieved by accessing APIs from food review sites.
 
-[logo]: https://github.com/ttalcott/MashyCapstone/tree/master/Mashy/Mashy/Images/mashy.io.svg "Mashy"
+[logo]: /Mashy/Images/mashy.io.svg "Mashy"
