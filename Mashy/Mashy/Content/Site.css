@@ -13,7 +13,7 @@
 .splash {
     display: flex;
     align-items: center;
-    background: url("../Images/header") center center no-repeat;
+    background: url("../Images/header.jpg") center center no-repeat;
     background-size: cover;
     height: 60vh;
 }
