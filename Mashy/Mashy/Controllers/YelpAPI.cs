@@ -11,15 +11,15 @@ namespace Mashy.Controllers
     internal class YelpAPI
     {
         private static string consumerKey =
-            ConfigurationManager.AppSettings["ConsumerKey"];
+            ConfigurationManager.AppSettings["YelpKey"];
         private static string consumerSecret =
-            ConfigurationManager.AppSettings["ConsumerSecret"];
+            ConfigurationManager.AppSettings["YelpSecret"];
         private static string token =
             ConfigurationManager.AppSettings["Token"];
         private static string tokenSecret =
             ConfigurationManager.AppSettings["TokenSecret"];
-        private static string baseUrl =
-             ConfigurationManager.AppSettings["BaseURL"];
+        private static string yelpBaseUrl =
+             ConfigurationManager.AppSettings["YelpBaseURL"];
 
         internal static string PerformRequest()
         {
