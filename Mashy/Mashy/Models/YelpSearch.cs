@@ -49,8 +49,8 @@ namespace Mashy.Models
             public string snippet_text { get; set; }
             public string url { get; set; }
         }
-        //[DataMember]
-        //public List<Business> businesses { get; set; }
+        [DataMember]
+        public List<Business> businesses { get; set; }
         //[DataMember]
         //public int total { get; set; }
 
