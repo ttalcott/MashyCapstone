@@ -25,7 +25,7 @@ namespace Mashy.Controllers
             queryString["limit"] = "10";
 
             //create the web request
-            var uri = new UriBuilder(baseUrl + "/search");
+            var uri = new UriBuilder(yelpBaseUrl + "/search");
             uri.Query = queryString.ToString();
 
             var request = WebRequest.Create(uri.ToString());
@@ -36,8 +36,6 @@ namespace Mashy.Controllers
                 {
                     ConsumerKey = consumerKey,
                     ConsumerSecret = consumerSecret,
-                    AccessToken = token,
-                    AccessTokenSecret = tokenSecret
                 }).WithEncryption(EncryptionMethod.HMACSHA1).InHeader();
 
             HttpWebResponse response =
