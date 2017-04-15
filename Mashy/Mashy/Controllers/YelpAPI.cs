@@ -14,10 +14,6 @@ namespace Mashy.Controllers
             ConfigurationManager.AppSettings["YelpKey"];
         private static string consumerSecret =
             ConfigurationManager.AppSettings["YelpSecret"];
-        private static string token =
-            ConfigurationManager.AppSettings["Token"];
-        private static string tokenSecret =
-            ConfigurationManager.AppSettings["TokenSecret"];
         private static string yelpBaseUrl =
              ConfigurationManager.AppSettings["YelpBaseURL"];
 
